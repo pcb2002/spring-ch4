@@ -1,5 +1,5 @@
 # 1. Java 17 실행 환경을 가져옵니다.
-FROM eclipse-temurin:17-jdk-slim
+FROM amazoncorretto:17-al2023-headless
 
 # 2. 컨테이너 내부에 작업 디렉토리를 설정합니다.
 WORKDIR /app
